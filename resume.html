@@ -39,7 +39,7 @@
         <div>&#9742;: 912XXXXXX</div>
         <div>	&#9906;: Varanasi,U.P.,India</div>
         <div>	<strong style="font-family:sans-serif">Gmail</strong>: 
-          ankuragrawal9455@gmail.com</div>
+          ankuragrawal..@gmail.com</div>
         <div><strong style="font-family:sans-serif">Linkedin</strong>:
           linkedin.com/in/ankur-agrawal</div>
         <div><strong style="font-family:sans-serif">Github</strong>: github.com/Ankur-Agrawal-ece20</div>
@@ -187,9 +187,19 @@
  <script>
    function download(){
     document.getElementById('sidenav').style.display='none';
+    document.getElementById('sidenav').style.opacity='0';
     print();
+    document.getElementById('sidenav').style.opacity='0.8';
     document.getElementById('sidenav').style.display='grid';
    }
+   window.onscroll = function(ev) {
+    if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight) {
+        document.getElementById("sidenav").style.bottom="unset";
+    }
+    else{
+      document.getElementById("sidenav").style.bottom="0px";
+    }
+};
  </script>
 </body>
 </html>

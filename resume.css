@@ -60,7 +60,7 @@
     grid-template-columns: auto;
     position: fixed;
     bottom: 0px;
-    right: 0px;
+    right: 10px;
     background-color: black;
     opacity: 0.8;
 }
