@@ -17,7 +17,7 @@
     <a class="navbtn" href="#education">Education</a>
     <a class="navbtn" href="#languages">Languages</a>
     <a class="navbtn" href="#achievements">Achievements</a>
-    <button class="navbtn" onclick="download()"><strong>Download</strong></button>
+    <button class="navbtn" onclick="print();"><strong>Download</strong></button>
   </div>
   <div class="template">
     <div class="upperpart">
@@ -185,13 +185,6 @@
     </div>
   </div>
  <script>
-   function download(){
-    document.getElementById('sidenav').style.display='none';
-    document.getElementById('sidenav').style.opacity='0';
-    print();
-    document.getElementById('sidenav').style.opacity='0.8';
-    document.getElementById('sidenav').style.display='grid';
-   }
    window.onscroll = function(ev) {
     if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight) {
         document.getElementById("sidenav").style.bottom="unset";

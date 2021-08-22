@@ -86,3 +86,9 @@
      grid-template-columns: 100%;
  }
 }
+@media print {
+    #sidenav{
+       visibility: hidden !important;
+       display: none !important;
+    }
+ }
