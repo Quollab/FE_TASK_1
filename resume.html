@@ -1,9 +1,195 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="resume.css"/>
-  </head>
-  <body>
-      <p>hello world!</p>
-  </body> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="resume.css">
+  <title>Resume</title>
+</head>
+<body>
+  <div id="sidenav">
+    <a class="navbtn" href="#about">About</a>
+    <a class="navbtn" href="#contact">Contact</a>
+    <a class="navbtn" href="#experience">Experience</a>
+    <a class="navbtn" href="#skills">Skills</a>
+    <a class="navbtn" href="#interskills">Interpersonal Skills</a>
+    <a class="navbtn" href="#education">Education</a>
+    <a class="navbtn" href="#languages">Languages</a>
+    <a class="navbtn" href="#achievements">Achievements</a>
+    <button class="navbtn" onclick="download()"><strong>Download</strong></button>
+  </div>
+  <div class="template">
+    <div class="upperpart">
+      <div class="margin"><div style="background-color: black;"></div></div>
+      <div id="about">
+        <h1>Ankur Agrawal</h1>
+        <div style="color: rgb(36, 103, 230);font-size: 20px;">UnderGraduate</div>
+        <div>
+          Pursuing B.Tech. in Electronics from Indian Institute of Technology, B.H.U. 
+          By practice, I am a web developer, looking forward to hands-on projects and
+          work experience under a reputed company.
+        </div>
+      </div>
+      <div id="extras">
+      <div id="avtar">
+        <img src="src/ResumePic.png">
+      </div>
+      <div id="contact">
+        <div>&#9742;: 912XXXXXX</div>
+        <div>	&#9906;: Varanasi,U.P.,India</div>
+        <div>	<strong style="font-family:sans-serif">Gmail</strong>: 
+          ankuragrawal9455@gmail.com</div>
+        <div><strong style="font-family:sans-serif">Linkedin</strong>:
+          linkedin.com/in/ankur-agrawal</div>
+        <div><strong style="font-family:sans-serif">Github</strong>: github.com/Ankur-Agrawal-ece20</div>
+      
+      </div>
+      </div>
+    </div>
+    <hr style=" border-top: 2px solid cornflowerblue;">
+    <div class="lowerpart">
+      <div class="margin"><div></div><div></div><div></div></div>
+      <div id="content">
+      <div id="leftpart">
+        <h2 id="experience">EXPERIENCES</h2>
+        <div>
+          <strong>IOT Developer</strong>
+          <ul>
+            <li>Implemented an IOT based project under IITBHU UDYAM21.</li>
+            <li>Final judgement by an IOT startup CISCO thingQbator.</li>
+            <li>Our team got 2nd prize and certificate of merit under my leadership.</li>
+          </ul>
+        </div>
+        <div>
+          <strong>Publicity Coordinator</strong>
+          <ul>
+            <li>Worked as Publicity Coordinator in Technex.</li>
+            <li>Technex is the annual techno-management fest of IIT BHU.</li>
+            <li>Duration: 02-04 April,2021.</li>
+          </ul>
+        </div>
+        <h2 id="education">EDUCATION</h2>
+        <div>
+          <ul>
+            <li><strong>BTech in Electronics:</strong> IIT BHU (2020-24)</li>
+            <li><strong>Intermediate:</strong> Sunbeam School BGN (2018-20)</li>
+            <li><strong>Matriculate:</strong> Sunbeam School BGN (2016-18)</li>
+          </ul>
+        </div>
+        <h2 id="languages">LANGUAGES</h2>
+        <div>
+          <table>
+            <tr>
+              <td>English</td>
+              <td>
+                <span class="stared">&#9733;</span>
+                <span class="stared">&#9733;</span>
+                <span class="stared">&#9733;</span>
+                <span class="stared">&#9733;</span>
+                <span class="stared">&#9734;</span>
+              </td>
+            </tr>
+            <tr>
+              <td>Hindi</td>
+              <td>
+                <span class="stared">&#9733;</span>
+                <span class="stared">&#9733;</span>
+                <span class="stared">&#9733;</span>
+                <span class="stared">&#9733;</span>
+                <span class="stared">&#9733;</span>
+              </td>
+            </tr>
+            <tr>
+              <td>Sanskrit</td>
+              <td>
+                <span class="stared">&#9733;</span>
+                <span class="stared">&#9733;</span>
+                <span class="stared">&#9733;</span>
+                <span class="stared">&#9734;</span>
+                <span class="stared">&#9734;</span>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div id="rightpart">
+        <h2 id="skills">SKILLS</h2>
+        <div>
+          <table>
+            <tr>
+              <td>HTML</td>
+              <td><progress value="9" max="10"></progress></td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td><progress value="8" max="10"></progress></td>
+            </tr>
+            <tr>
+              <td>Javascript</td>
+              <td><progress value="10" max="10"></progress></td>
+            </tr>
+            <tr>
+              <td>ReactJS</td>
+              <td><progress value="9" max="10"></progress></td>
+            </tr>
+            <tr>
+              <td>Django</td>
+              <td><progress value="8" max="10"></progress></td>
+            </tr>
+            <tr>
+              <td>Django Rest Framework</td>
+              <td><progress value="10" max="10"></progress></td>
+            </tr>
+            <tr>
+              <td>C programming</td>
+              <td><progress value="10" max="10"></progress></td>
+            </tr>
+            <tr>
+              <td>C++ programming</td>
+              <td><progress value="9" max="10"></progress></td>
+            </tr>
+            <tr>
+              <td>Python</td>
+              <td><progress value="10" max="10"></progress></td>
+            </tr>
+            <tr>
+              <td>OpenCV</td>
+              <td><progress value="10" max="10"></progress></td>
+            </tr>
+            <tr>
+              <td>Reinforcement learning</td>
+              <td><progress value="6" max="10"></progress></td>
+            </tr>
+          </table>
+        </div>
+        <h2 id="interskills">INTERPERSONAL SKILLS</h2>
+        <div>
+          <ul>
+            <li>Leadership Quality</li>
+            <li>Listening Skills</li>
+            <li>Public Speaking</li>
+            <li>Problem Solving Skills</li>
+          </ul>
+        </div>
+        <h2 id="achievements">ACHIEVEMENTS</h2>
+        <div>
+          <ul>
+            <li>Finalist in Chase Unicorn case study competition.</li>
+            <li>2nd prize in X-IoT-A held under UDYAM'21.</li>
+            <li>4th in Pixelate organized by Technex'21.</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+ <script>
+   function download(){
+    document.getElementById('sidenav').style.display='none';
+    print();
+    document.getElementById('sidenav').style.display='grid';
+   }
+ </script>
+</body>
 </html>
