@@ -344,16 +344,18 @@ img{border:5px solid rgb(82, 159, 236);
   display: flex;
   width: 30%;
   height: 100%;
-  float: left;
+  padding-left: -10px;
+  padding-right: 20px;
 }
 
 .skillbar{
   display: flex;
   flex-direction: column;
   width: 70%;
-  height: 100%;
-  float: right;
+  height: 80%;
+  left: 0px;
   padding-top: 17px;
+  padding-left: 50px;
 }
 
 .org{
