@@ -1,0 +1,433 @@
+@media only screen and (min-width: 700px) {
+* {box-sizing:border-box}
+
+img{border:5px solid rgb(82, 159, 236);
+  width: 300px;
+  height: 400px;
+  background: #F00;
+  border-radius: 50%;
+  transform: scale(.76, .5)
+  /* animation: superman-fly-right ease-in-out 2.0s forwards; */
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 30%;
+  margin-top: 30px;
+}
+
+.leftdes{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 35%;
+  height: 100%;
+  margin-left: 10px;
+  animation: superman-fly-right ease-in-out 1.2s forwards;
+}
+
+.centerpic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28.7%;
+  height: 100%;
+  animation: superman-fly-doen ease-in-out 2.0s forwards;
+
+}
+
+.rightcontact{
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  left: 0%;
+  width: 35%;
+  height: 100%;
+  margin-right: 10px;
+  animation: superman-fly-left ease-in-out 1.2s forwards;
+}
+
+.bottom{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.leftdiv{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 50%;
+  height: 100%;
+  margin-left: 10px;
+  animation: superman-fly-right ease-in-out 2.5s forwards;
+}
+
+.workexp{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 70%;
+}
+
+.part1{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.edu{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  height:15%;
+}
+
+.lang{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  height:15%;
+}
+
+.rightdiv{
+  display: flex;
+  flex-direction: column;
+  float: right;
+  width: 50%;
+  height: 100%; 
+  margin-left: 20px;
+  align-items: center;
+  animation: superman-fly-left ease-in-out 2.5s forwards;
+}
+
+.skillscolm{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  height:60%;
+  overflow-y: scroll;
+}
+
+.allskills{
+  display:flex;
+  flex-direction: row;
+  height: 10%;
+  width: 100%;
+}
+
+.skillname{
+  display: flex;
+  width: 30%;
+  height: 100%;
+  float: left;
+}
+
+.skillbar{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 100%;
+  float: right;
+  padding-top: 17px;
+}
+
+.org{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  height:20%;
+}
+
+.acheivs{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  height:20%;
+}
+
+.containerskills {
+  display: flex;
+  width: 60%; 
+  height: 100%;
+  background-color: #ddd;
+  border-radius: 25px;
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-right: 80px;
+  padding-bottom: 10px; 
+  color: white; 
+}
+
+.skillcpp {width: 80%; background-color: #2196F3;border-radius: 25px;float: right;} 
+.skillc {width: 100%; background-color: #2196F3;border-radius: 25px;float: right;} 
+.skillpython {width: 80%; background-color: #2196F3;border-radius: 25px;float: right;} 
+.skillweb {width: 70%; background-color: #2196F3;border-radius: 25px;float: right;} 
+.skillmanage {width: 70%; background-color: #2196F3;border-radius: 25px;float: right;} 
+
+.containerlangfull{
+    background-color: rgb(19, 90, 231);
+    width: 5%;
+}
+.containerlangempty{
+    background-color: rgb(168, 189, 233);
+    width: 5%;
+}
+
+.resume{
+  animation-name: animation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes animation {
+  from{background: linear-gradient(to bottom,#76bdd681 0%, #5960bb);}
+  to{background: linear-gradient(to bottom,#3681be81 0%, #9663c6);}
+}
+
+
+@keyframes superman-fly-right {
+  from {
+      transform: translateX(-100vw);
+  }
+  to {
+      transform: translateX(0);
+  }
+}
+
+@keyframes superman-fly-left {
+  from {
+      transform: translateX(100vw);
+  }
+  to {
+      transform: translateX(0);
+  }
+}
+
+@keyframes superman-fly-down {
+  from {
+      transform: translateY(-100vw);
+  }
+  to {
+      transform: translateY(0);
+  }
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 700px) {
+  * {box-sizing:border-box}
+
+img{border:5px solid rgb(82, 159, 236);
+  width: 180px;
+  height: 180px;
+  background: #F00;
+  border-radius: 50%;
+  transform: scale(.76, .5);
+  animation: superman-fly-right ease-in-out 2.0s forwards;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+}
+
+.leftdes{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  height: 100%;
+  justify-self: center;
+  align-items: center;
+  animation: superman-fly-left ease-in-out 2.0s forwards;
+}
+
+.centerpic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.rightcontact{
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  height: 100%;
+  justify-self: center;
+  align-items: center;
+  animation: superman-fly-left ease-in-out 2.0s forwards;
+}
+
+.bottom{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 250%;
+  margin-top: 20px;
+}
+
+.leftdiv{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  height: 100%;
+  margin-left: 10px;
+}
+
+.workexp{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.part1{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.edu{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  height:15%;
+}
+
+.lang{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  height:15%;
+}
+
+.rightdiv{
+  display: flex;
+  flex-direction: column;
+  float: right;
+  height: 100%; 
+  margin-left: 10px;
+  align-items: center;
+}
+
+.skillscolm{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  height:60%;
+  overflow-y: scroll;
+}
+
+.allskills{
+  display:flex;
+  flex-direction: row;
+  height: 10%;
+  width: 100%;
+}
+
+.skillname{
+  display: flex;
+  width: 30%;
+  height: 100%;
+  float: left;
+}
+
+.skillbar{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 100%;
+  float: right;
+  padding-top: 17px;
+}
+
+.org{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  height:20%;
+}
+
+.acheivs{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  height:20%;
+}
+
+.containerskills {
+  display: flex;
+  width: 60%; 
+  height: 100%;
+  background-color: #ddd;
+  border-radius: 25px;
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-right: 80px;
+  padding-bottom: 10px; 
+  color: white; 
+}
+
+.skillcpp {width: 80%; background-color: #2196F3;border-radius: 25px;float: right;} 
+.skillc {width: 100%; background-color: #2196F3;border-radius: 25px;float: right;} 
+.skillpython {width: 80%; background-color: #2196F3;border-radius: 25px;float: right;} 
+.skillweb {width: 70%; background-color: #2196F3;border-radius: 25px;float: right;} 
+.skillmanage {width: 70%; background-color: #2196F3;border-radius: 25px;float: right;} 
+
+.containerlangfull{
+    background-color: rgb(19, 90, 231);
+    width: 5%;
+}
+.containerlangempty{
+    background-color: rgb(168, 189, 233);
+    width: 5%;
+}
+
+.resume{
+  animation-name: animation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes superman-fly-right {
+  from {
+      transform: translateX(-100vw);
+  }
+  to {
+      transform: translateX(0);
+  }
+}
+
+@keyframes superman-fly-left {
+  from {
+      transform: translateX(100vw);
+  }
+  to {
+      transform: translateX(0);
+  }
+}
+
+@keyframes animation {
+  from{background: linear-gradient(to bottom,#76bdd681 0%, #5960bb);}
+  to{background: linear-gradient(to bottom,#3681be81 0%, #9663c6);}
+}
+
+}
