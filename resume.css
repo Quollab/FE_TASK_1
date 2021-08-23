@@ -31,6 +31,12 @@
 }
 #avtar{
     padding:10%;
+    position: relative;
+    animation: startnow 2s 1;
+}
+@keyframes startnow {
+    0%   {top: -150px;}
+    100%   {top: 0px;}
 }
 #avtar img{
     height:120px;
@@ -92,3 +98,9 @@
        display: none !important;
     }
  }
+ progress{
+    animation: extend 2s linear;
+ }
+@keyframes extend {
+   0%{width: 0%;}
+}
