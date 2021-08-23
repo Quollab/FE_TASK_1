@@ -83,6 +83,15 @@
 ul {
     list-style-type: none;
 }
+@keyframes animation {
+    from {background: linear-gradient(to bottom,#c51df881 0%,#2d3275);}
+    to {background: linear-gradient(to bottom,#3681be81 0%,#7134aa);}
+  }
+.resume{
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
 }
 @media only screen and (max-width: 600px){
     .resume{
