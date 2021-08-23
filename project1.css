@@ -13,7 +13,7 @@ img{border:5px solid rgb(82, 159, 236);
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 25%;
+  height: 30%;
   margin-top: 30px;
 }
 
@@ -193,9 +193,8 @@ img{border:5px solid rgb(82, 159, 236);
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 25%;
+  height: 60%;
   margin-top: 30px;
-  overflow: scroll;
 }
 
 .leftdes{
@@ -222,15 +221,15 @@ img{border:5px solid rgb(82, 159, 236);
   height: 100%;
   justify-self: center;
   align-items: center;
+  animation: superman-fly-left ease-in-out 1.5s forwards;
 }
 
 .bottom{
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 75%;
+  height: 130%;
   margin-top: 20px;
-  overflow: scroll;
 }
 
 .leftdiv{
