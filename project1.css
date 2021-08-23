@@ -1,3 +1,4 @@
+@media only screen and (min-width: 700px) {
 * {box-sizing:border-box}
 
 img{border:5px solid rgb(82, 159, 236);
@@ -172,4 +173,182 @@ img{border:5px solid rgb(82, 159, 236);
 .containerlangempty{
     background-color: rgb(168, 189, 233);
     width: 5%;
+}
+}
+
+
+@media only screen and (max-width: 700px) {
+  * {box-sizing:border-box}
+
+img{border:5px solid rgb(82, 159, 236);
+  width: 200px;
+  height: 300px;
+  background: #F00;
+  border-radius: 50%;
+  transform: scale(.76, .5)
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 25%;
+  margin-top: 30px;
+  overflow: scroll;
+}
+
+.leftdes{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  height: 100%;
+  justify-self: center;
+  align-items: center;
+}
+
+.centerpic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.rightcontact{
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  height: 100%;
+  justify-self: center;
+  align-items: center;
+}
+
+.bottom{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 75%;
+  margin-top: 20px;
+  overflow: scroll;
+}
+
+.leftdiv{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  height: 100%;
+  margin-left: 10px;
+}
+
+.workexp{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.part1{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.edu{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  height:15%;
+}
+
+.lang{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  height:15%;
+}
+
+.rightdiv{
+  display: flex;
+  flex-direction: column;
+  float: right;
+  height: 100%; 
+  margin-left: 10px;
+  align-items: center;
+}
+
+.skillscolm{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  height:60%;
+  overflow-y: scroll;
+}
+
+.allskills{
+  display:flex;
+  flex-direction: row;
+  height: 10%;
+  width: 100%;
+}
+
+.skillname{
+  display: flex;
+  width: 30%;
+  height: 100%;
+  float: left;
+}
+
+.skillbar{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 100%;
+  float: right;
+  padding-top: 17px;
+}
+
+.org{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  height:20%;
+}
+
+.acheivs{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  height:20%;
+}
+
+.containerskills {
+  display: flex;
+  width: 60%; 
+  height: 100%;
+  background-color: #ddd;
+  border-radius: 25px;
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-right: 80px;
+  padding-bottom: 10px; 
+  color: white; 
+}
+
+.skillcpp {width: 80%; background-color: #2196F3;border-radius: 25px;float: right;} 
+.skillc {width: 100%; background-color: #2196F3;border-radius: 25px;float: right;} 
+.skillpython {width: 80%; background-color: #2196F3;border-radius: 25px;float: right;} 
+.skillweb {width: 70%; background-color: #2196F3;border-radius: 25px;float: right;} 
+.skillmanage {width: 70%; background-color: #2196F3;border-radius: 25px;float: right;} 
+
+.containerlangfull{
+    background-color: rgb(19, 90, 231);
+    width: 5%;
+}
+.containerlangempty{
+    background-color: rgb(168, 189, 233);
+    width: 5%;
+}
 }
