@@ -174,6 +174,17 @@ img{border:5px solid rgb(82, 159, 236);
     background-color: rgb(168, 189, 233);
     width: 5%;
 }
+
+.resume{
+  animation-name: animation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes animation {
+  from{background: linear-gradient(to bottom,#76bdd681 0%, #5960bb);}
+  to{background: linear-gradient(to bottom,#3681be81 0%, #9663c6);}
+}
+
 }
 
 
@@ -353,6 +364,12 @@ img{border:5px solid rgb(82, 159, 236);
     width: 5%;
 }
 
+.resume{
+  animation-name: animation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
 @keyframes superman-fly-right {
   from {
       transform: translateX(-100vw);
@@ -372,8 +389,8 @@ img{border:5px solid rgb(82, 159, 236);
 }
 
 @keyframes animation {
-  from{background: linear-gradient(to bottom,#c51df881 0%, #2d3275);}
-  to{background: linear-gradient(to bottom,#3681be81 0%, #7134aa);}
+  from{background: linear-gradient(to bottom,#76bdd681 0%, #5960bb);}
+  to{background: linear-gradient(to bottom,#3681be81 0%, #9663c6);}
 }
 
 }
