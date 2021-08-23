@@ -181,11 +181,12 @@ img{border:5px solid rgb(82, 159, 236);
   * {box-sizing:border-box}
 
 img{border:5px solid rgb(82, 159, 236);
-  width: 200px;
-  height: 300px;
+  width: 180px;
+  height: 180px;
   background: #F00;
   border-radius: 50%;
-  transform: scale(.76, .5)
+  transform: scale(.76, .5);
+  animation: superman-fly-right ease-in-out 1.5s forwards;
 }
 
 .header{
@@ -204,6 +205,7 @@ img{border:5px solid rgb(82, 159, 236);
   height: 100%;
   justify-self: center;
   align-items: center;
+  animation: superman-fly-left ease-in-out 1.5s forwards;
 }
 
 .centerpic{
@@ -351,4 +353,23 @@ img{border:5px solid rgb(82, 159, 236);
     background-color: rgb(168, 189, 233);
     width: 5%;
 }
+
+@keyframes superman-fly-right {
+  from {
+      transform: translateX(-100vw);
+  }
+  to {
+      transform: translateX(0);
+  }
+}
+
+@keyframes superman-fly-left {
+  from {
+      transform: translateX(100vw);
+  }
+  to {
+      transform: translateX(0);
+  }
+}
+
 }
