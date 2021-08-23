@@ -1,10 +1,11 @@
-.resume{
+@media only screen and (min-width: 600px){
+    .resume{
     display:flex;
     flex-direction: column;
     float:left;
     width:100%;
     height: 800px;
-    border: 2px solid black;
+    
     box-sizing:border-box;
 }
 .myheader{
@@ -82,4 +83,94 @@
 ul {
     list-style-type: none;
 }
+}
+@media only screen and (max-width: 600px){
+    .resume{
+        display:block;
+        flex-direction: column;
+        width:100%;
+        height: 100%;
+        
+        box-sizing:border-box;
+    }
+    .myheader{
+        display:block;
+        width:100%;
+        height:50%;
+        
+        box-sizing: border-box;
+    }
+    
+    .left{
+        display:block;
+        width:100%;
+        
+        
+        box-sizing: border-box;
+        text-align: center;
+    
+    }
+    .right{
+        display:block;
+        
+        width:100%;
+        text-align: center;
+        
+        box-sizing: border-box;
+    
+    }
+    .middle{
+        display:block;
+        
+        width:100%;
+        
+        box-sizing: border-box;
+        
+    }
+    .middle img{
+        border-radius: 99999px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
   
+    }
+    .myheader1{
+        display:block;
+        
+        width:100%;
+        height: 70%;
+        
+        box-sizing: border-box;
+    }
+
+ 
+    .left1{
+        display:block;
+        
+        width:100%;
+        
+        
+        box-sizing: border-box;
+    
+    }
+    .right1{
+        display:block;
+        
+        width:100%;
+        
+        
+        box-sizing: border-box;
+        text-align: left;
+    }
+    .checked{
+        color: rgb(150, 51, 84);
+    }
+    
+    .container{
+        
+        float:right;
+    }
+    ul {
+        list-style-type: none;
+    }
+    } 
